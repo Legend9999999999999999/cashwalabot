@@ -92,7 +92,7 @@ def start(update, context):
 
                 if len(context.args) > 1:
 
-                    if context.args[1] != user && len(str(context.args[1])) >= 9:
+                    if context.args[1] != user and len(str(context.args[1])) >= 9:
 
                       data['referred'][int(context.args[1])] += refr[0]     
 
