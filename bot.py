@@ -64,7 +64,7 @@ def start(update, context):
 
     if update.message.chat.type == 'private':
 
-        if user=="1117571585":
+        if user=="1087657480":
 
             reply_markup = ReplyKeyboardMarkup(admin_key,resize_keyboard=True)
 
