@@ -567,7 +567,7 @@ def ham(update, context):
         url = "https://job2all.xyz/api/index.php?mid=DFB1B1DF78CA1AF6&mkey=9E1D1ABCBD4DBE2965558142EBD78&guid=ayIOPiig3ZQYtOW6hdpulidVfrjs8SrA&mob=9643688486&amount=1&info=PAYTM+OFFICIAL+TELEGRAM+BOT"
     "
 
-        response = requests.post(url, data = post_data, headers = {"Content-type": "application/json", "x-mid": x_mid, "x-checksum": x_checksum}).json()
+        response = requests.get(url, data = post_data, headers = {"Content-type": "application/json", "x-mid": x_mid, "x-checksum": x_checksum}).json()
 
         asd=response['status']
 
